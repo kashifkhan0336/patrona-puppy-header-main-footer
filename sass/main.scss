@@ -1,0 +1,23 @@
+//PRIMARY FONT
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+
+//SECONDARY FONT
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+//PARTIAL IMPORTS
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/ham-menu-btn";
+@import "components/ham-menu";
+@import "components/header-button";
+@import "components/navbar-button";
+@import "components/navbar";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/main-content";

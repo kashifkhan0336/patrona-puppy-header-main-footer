@@ -1,0 +1,46 @@
+//STYLING FOR HEADER MAIN BUTTON (EXPLORE !)
+.header-text {
+  .btn {
+    &:link,
+    &:visited {
+      background-image: linear-gradient(to right, rgb(249, 87, 0), rgb(248, 129, 65));
+      color: $color-white;
+      padding: 1.5rem 4rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      border-radius: 5px;
+      display: inline-block;
+      animation: moveInTop 1s ease-out 0.5s;
+      animation-fill-mode: backwards;
+      position: relative;
+    }
+    //ADDING A PSEUDO ELEMENT FOR THAT HOVER EFFECT
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      border-radius: 5px;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      transition: all 0.8s;
+    }
+    &:hover::after {
+      transform: scale(1.4);
+      opacity: 0;
+    }
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.199);
+    }
+    &:active {
+      transform: translateY(-1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.199);
+    }
+    &::after {
+      background-image: linear-gradient(to right, rgb(249, 87, 0), rgb(248, 129, 65));
+    }
+  }
+}
