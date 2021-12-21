@@ -614,7 +614,7 @@ body {
   width: 100%;
   padding: 8rem 0;
   padding-bottom: 25rem;
-  background-color: #F8F8F8;
+  background-color: #F0f0f0;
 }
 @media (max-width: 1750px) {
   .blog-section {
@@ -638,7 +638,6 @@ body {
   padding: 5rem;
   background-image: linear-gradient(to right bottom, #f95700, #f88141);
   border-radius: 5px;
-  transition: all 200ms;
 }
 .blog-section .blog-slider-paragraph .blog-paragraph:hover {
   background-image: linear-gradient(to left bottom, #f95700, #f88141);
@@ -690,6 +689,7 @@ body {
 }
 .blog-section .blog-slider-paragraph .blog-slider img {
   width: 100%;
+  box-shadow: -5px -5px 15px #252525;
 }
 .blog-section .blog-slider-paragraph .blog-slider .slider-arrows {
   width: 80px;
