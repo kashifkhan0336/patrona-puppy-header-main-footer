@@ -111,7 +111,7 @@
 
         &:active {
           box-shadow: 0 2px 15px $color-light-gray;
-          transform: translateY(0px);
+          transform: translateY(0);
           background-image: linear-gradient(
             to right,
             rgb(249, 87, 0),
@@ -242,7 +242,7 @@
 
 //STYLING OF BLOG SECTION WITH IMAGES (SIMILAR LAYOUT WITH ABOUT US SECTION ABOVE)
 .blog-imgs-text-section:not(:last-child) {
-  padding: 15rem 0 15rem 0;
+  padding: 15rem 0;
 
   @media (max-width: 1600px) {
     padding-top: 5rem;
