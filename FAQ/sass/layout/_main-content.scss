@@ -1,0 +1,113 @@
+//FAQ SECTION STYLING
+main {
+  width: 100%;
+  padding: 8rem 0;
+
+  section {
+      margin-bottom: 7rem !important;
+  }
+
+  .faq-section {
+    width: 65%;
+    margin: 0 auto;
+    letter-spacing: 2px;
+
+    @media (max-width: 640px){
+        width: 95%;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 4rem;
+      margin-bottom: 3rem;
+      font-weight: 800;
+      color: $color-black;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+
+      @media (max-width: 1020px) {
+        font-size: 3.5rem;
+      }
+
+      @media (max-width: 840px) {
+        font-size: 3rem;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 2.5rem;
+      }
+    }
+
+    .question:not(:first-child) {
+      border-top: 1px solid $color-gray;
+    }
+
+    .question:first-child {
+      border-radius: 40px 40px 0 0;
+      @media (max-width: 720px) {
+        border-radius: 30px 30px 0 0;
+      }
+    }
+
+    .plus-icon {
+      margin-left: 2rem;
+    }
+
+    .question {
+      padding: 3rem 3rem;
+      font-size: 2rem;
+      display: flex;
+      justify-content: space-between;
+      background-image: linear-gradient(
+        to right,
+        rgb(249, 87, 0),
+        rgb(248, 129, 65)
+      );
+      color: $color-white;
+      cursor: pointer;
+      // width: 70%;
+
+      &:hover {
+        background-image: linear-gradient(
+        to left,
+        rgb(249, 87, 0),
+        rgb(248, 129, 65)
+      );
+    }
+
+      @media (max-width: 930px) {
+        font-size: 1.5rem;
+      }
+
+      @media (max-width: 720px) {
+        font-size: 1.2rem;
+        padding: 2rem 2rem;
+      }
+    }
+
+    
+
+    // .vaccine-section__question:nth-child(1) {
+    //     max-width: 400px;
+    // }
+  }
+  .answer {
+    background-color: $color-bg-gray;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    border-right: 1px solid $color-gray;
+    border-bottom: 1px solid $color-gray;
+    border-left: 1px solid $color-gray;
+    line-height: 1.5;
+    display: none;
+
+    @media (max-width: 930px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 720px) {
+        font-size: 1.2rem;
+        padding: 2rem 2rem;
+      }
+  }
+}

@@ -1,0 +1,31 @@
+//PRIMARY FONT
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+
+//SECONDARY FONT
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+//PARTIAL IMPORTS FOR NAVBAR AND FOOTER
+@import "../../sass/abstracts/variables";
+
+@import "../../sass/base/animations";
+@import "../../sass/base/base";
+@import "../../sass/base/typography";
+@import "../../sass/base/utilities";
+
+@import "../../sass/components/ham-menu-btn";
+@import "../../sass/components/ham-menu";
+@import "../../sass/components/header-button";
+@import "../../sass/components/navbar-button";
+@import "../../sass/components/navbar";
+
+
+@import "../../sass/layout/footer";
+@import "../../sass/layout/header";
+
+//PARTIAL IMPORTS 
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/header-image";
+
+@import "layout/main-content";
