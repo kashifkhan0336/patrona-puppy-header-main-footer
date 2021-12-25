@@ -531,6 +531,7 @@ main .faq-section {
   width: 65%;
   margin: 0 auto;
   letter-spacing: 2px;
+  max-width: 1250px;
 }
 @media (max-width: 640px) {
   main .faq-section {

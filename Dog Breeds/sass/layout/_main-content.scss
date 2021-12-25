@@ -1,0 +1,215 @@
+main {
+  width: 100%;
+  padding: 8rem 0;
+  h2 {
+    font-family: "Fredoka One", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(
+      to right,
+      rgb(249, 87, 0),
+      rgb(248, 129, 65)
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+
+    @media (max-width: 640px) {
+      font-size: 4rem;
+    }
+
+    @media (max-width: 475px) {
+      font-size: 3rem;
+    }
+  }
+  .main-img {
+    width: 70rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+
+    @media (max-width: 1200px) {
+      width: 60%;
+    }
+
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      box-shadow: 2px 2px 10px $color-dark-gray;
+    }
+  }
+
+  .main-info {
+    width: 60%;
+    margin: 0 auto;
+    @media (max-width: 992px) {
+      width: 100%;
+    }
+
+    .info {
+      display: flex;
+      margin-bottom: 3rem;
+
+      @media (max-width: 465px) {
+        box-shadow: none;
+      }
+
+      @media (max-width: 465px) {
+        display: block;
+      }
+      .characteristic {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        // color: $color-dark-orange;
+        color: $color-white;
+        width: 30%;
+        // background-color: $color-bg-gray;
+        background-image: linear-gradient(
+          to right,
+          rgb(249, 87, 0),
+          rgb(248, 129, 65)
+        );
+        // border: 1px solid $color-gray;
+        padding: 2rem;
+        border-right: 0;
+        letter-spacing: 2px;
+        height: fit-content;
+        box-shadow: 2px 2px 10px $color-gray;
+
+        @media (max-width: 560px) {
+          font-size: 1.2rem !important;
+          padding: 1rem;
+        }
+
+        @media (max-width: 690px) {
+          font-size: 1.8rem;
+          padding: 1.5rem;
+        }
+
+        @media (max-width: 1025px) {
+          width: 50%;
+        }
+
+        @media (max-width: 992px) {
+          width: 30%;
+        }
+        @media (max-width: 465px) {
+          width: 40% !important;
+          font-size: 1.2rem !important;
+        }
+
+        @media (max-width: 285px) {
+          width: 55% !important;
+        }
+      }
+
+      .value {
+        font-size: 2rem;
+        // text-transform: uppercase;
+        // font-weight: 700;
+        color: $color-black;
+        width: 70%;
+        background-color: $color-bg-gray;
+        // border: 1px solid $color-gray;
+        padding: 2rem;
+        letter-spacing: 2px;
+        border-left: 0;
+        box-shadow: 2px 2px 10px $color-gray;
+
+        @media (max-width: 465px) {
+          width: 100% !important;
+          padding: 2rem !important;
+          font-size: 1.5rem !important;
+          // box-shadow: 2px 2px 10px $color-gray;
+        }
+
+        @media (max-width: 690px) {
+          font-size: 1.8rem;
+          padding: 1.5rem;
+        }
+
+        @media (max-width: 560px) {
+          font-size: 1.2rem;
+          padding: 1rem;
+        }
+
+        p {
+          margin-top: 0;
+          letter-spacing: 2px;
+          line-height: 2;
+        }
+
+        @media (max-width: 1025px) {
+          width: 50%;
+        }
+
+        @media (max-width: 992px) {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 2rem 0 2rem;
+
+    .heading {
+      width: 50%;
+      padding-bottom: 5rem;
+
+      @media only screen and (max-width: 643px) {
+        width: 100%;
+      }
+
+      h3 {
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        border-bottom: 3px solid $color-black;
+        font-family: "Fredoka One", sans-serif;
+
+        @media only screen and (max-width: 710px) {
+          font-size: 4rem;
+        }
+
+        @media only screen and (max-width: 308px) {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      @media only screen and (max-width: 769px) {
+        flex-direction: column;
+      }
+
+      .dream {
+        display: flex;
+        flex-direction: column;
+        width: 32.5%;
+
+        @media only screen and (max-width: 769px) {
+          width: 100%;
+        }
+
+        img {
+          width: 100%;
+          padding-bottom: 1.5rem;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
