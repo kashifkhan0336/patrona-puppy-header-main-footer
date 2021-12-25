@@ -10,3 +10,4 @@
 - [x] Image Optimization
 - [ ] Lazy loading sections
 - [ ] Functional sliders
+- [ ] navbar wala prcha :3
